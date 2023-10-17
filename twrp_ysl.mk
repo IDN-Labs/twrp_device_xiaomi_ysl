@@ -7,8 +7,6 @@
 # Release name
 PRODUCT_RELEASE_NAME := ysl
 
-$(call inherit-product, build/target/product/embedded.mk)
-
 # Inherit from twrp common
 $(call inherit-product, vendor/twrp/config/common.mk)
 
