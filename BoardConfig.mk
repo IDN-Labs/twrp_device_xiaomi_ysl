@@ -93,3 +93,5 @@ TW_INCLUDE_FUSE_EXFAT := true
 TW_INCLUDE_FUSE_NTFS := true
 TW_INCLUDE_NTFS_3G := true
 TW_INCLUDE_PYTHON := true
+
+TW_OVERRIDE_SYSTEM_PROPS := "ro.build.date.utc;ro.treble.enabled"
